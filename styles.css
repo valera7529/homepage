@@ -164,13 +164,14 @@ body {
     text-align: justify;
 }.experiences {
     flex: 1 1 60%;
-    margin-right: 50px;
+    margin-right: 100px;
 }
 
 .experiences__header {
-    color: var(--secondary-text-color);
+    color: var(--primary-text-color);
     text-align: left;
     margin-bottom: 20px;
+    padding: 15px;
 }
 
 .experiences__company-header-durability {
@@ -220,20 +221,20 @@ body {
 }
 
 .additional-info__education-header {
-    color: var(--secondary-text-color);
+    color: var(--primary-text-color);
     text-align: left;
     margin-bottom: 20px;
 }
 
 .additional-info__education-university-durability {
-    color: var(--durability-text-color);
+    color: var(--secondary-text-color);
     text-align: left;
     margin-bottom: 10px;
     font-size: 15px;
 }
 
 .additional-info__education-university-speciality {
-    color: var(--primary-text-color);
+    color: var(--secondary-text-color);
     text-align: left;
     margin-bottom: 10px;
 }
